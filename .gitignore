@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Go build
+/bin/
+/dist/
+/build/
+
+# Go test
+*.test
+*.coverprofile
+coverage.out
+
+# Vendor (ignore se não usar commit do vendor)
+vendor/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Mongo local data (caso rode localmente)
+data/db/
+
+# Temporary files
+tmp/
+temp/
+
+# Air (hot reload)
+.air.toml
+
+# Delve debugger
+__debug_bin
+
+# Go workspace
+go.work
+go.work.sum
