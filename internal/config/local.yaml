@@ -1,0 +1,8 @@
+project_name: survivor
+
+port: "8080"
+
+mongo:
+  uri: "mongodb://localhost:27019"
+  database_name: "survivor"
+  jwt_secret: "123456"
